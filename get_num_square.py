@@ -8,5 +8,6 @@ if num:
         exit('ERROR : the INPUT_NUM provided("{}") is not an integer'.format(num))
 else:
     num=1
-    
+print(1)    
 print(f"::set-output name=num_squared::{num**2}")
+#.
